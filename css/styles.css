@@ -1,0 +1,355 @@
+html, body
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+body
+{
+	font-family: 'Montserrat', sans-serif;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+
+.navigation
+{
+	color: white; 
+	height: 50px;
+	animation-name: navegacao;
+	animation-duration: 1.5s;
+}
+
+.navigation ul
+{
+	margin-top: 0px; 
+	list-style: none;
+	padding-left: 0px;
+	text-align: right;
+	height: 50px;
+	
+}
+
+.navigation li
+{
+	display: inline-block;
+
+	opacity: 0.8;
+	background-color: #2e2d2d;
+	border-radius: 60px;
+	margin-top: 15px;
+	margin-right: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+
+	line-height: 50px;
+	font-size:18px;
+	font-weight: 100; 
+}
+
+.navigation a
+{
+	color: white;
+	text-decoration: none;
+}
+
+.navigation a:hover
+{
+	color: #F27609;
+}
+
+.capa
+{
+	color:white;
+	text-align: center;
+}
+
+.capa span
+{
+	margin-top: 25px;
+	margin-left: 25px;
+	display: block; 
+}
+
+
+.capa div 
+{
+	display: inline-block;
+	height:650px;
+}
+
+.capa a
+{
+	font-size: 22px;
+	margin-top: 15px;
+	margin-right: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	opacity: 0.8;
+	color: white;
+	background-color: #2e2d2d;
+	border-radius: 60px;
+	text-decoration: none;
+	animation-name: navegacao;
+	animation-duration: 1.5s;
+}
+
+.capa a:hover
+{
+	color: #F27609;
+}
+
+.profile-title
+{
+
+	vertical-align: top;
+	animation-name: titulo-capa;
+	animation-duration: 3s;
+}
+
+.profile-title h1
+{
+	
+	font-size: 80px;
+	margin-top: 200px;
+	font-weight: 400;
+	line-height: 55px;
+}
+
+
+.profile-title h2
+{
+	
+    background-color: rgba(150, 146, 143, .7);
+	padding: 15px;
+	border-radius: 20px;
+	font-size: 26px;
+	font-weight: 100; 
+	margin-top: -26px ;
+}
+
+
+.profile-title h4
+{
+    background-color: rgba(54,54,54, .8);
+	padding: 10px;
+	border-radius: 20px;
+}
+
+
+
+.profile-title1 h1
+{
+	font-size: 80px;
+	margin-top: 75px;
+	font-weight: 400;
+	line-height: 55px;
+}
+
+.profile-title h3
+{
+	background-color:  rgba(150, 146, 143, .7);
+	padding: 10px;
+	border-radius: 20px;
+}
+
+
+.formulario
+{
+	background-color: #2e2d2d;
+	opacity: 0.9;
+	padding-left: 60px; 
+	padding-right: 60px;
+	border-radius: 20px;
+	
+}
+
+
+.formulario1
+{
+	background-color: #2e2d2d;
+	opacity: 0.9;
+	padding-top: 30px;
+	padding-bottom: 75px;
+	padding-left: 60px; 
+	padding-right: 60px;
+	border-radius: 20px;
+	
+}
+
+
+.formulario2
+{
+	background-color: #2e2d2d;
+	opacity: 0.9;
+	padding-top: 30px;
+	padding-bottom: 25px;
+	padding-left: 60px; 
+	padding-right: 60px;
+	border-radius: 20px;
+	
+}
+
+
+
+.forms form
+{
+	background-color: #2e2d2d;
+	opacity: 0.9;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px; 
+	padding-right: 15px;
+	border-radius: 20px;
+	
+}
+
+
+.main
+{
+	padding: 80px 180px 80px 100px;
+	
+	animation-name: conteudo;
+	animation-duration: 2s;
+
+
+}
+
+
+
+
+.main h1
+{
+	color: white;
+	font-weight: normal;
+}
+
+.main h2
+{
+	color: white;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: normal;
+	margin-top: 40px;
+}
+
+.main h3
+{
+	color: #f27609;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+.main p
+{
+	color: white;
+	font-size: 18px;
+	font-weight: 100;
+	line-height: 25px;
+	text-align: justify; 
+}
+
+
+.barra
+{
+	float: left;
+	margin-top :60px;
+	margin-left: 80px;
+}
+
+.barra h1
+{
+	background-color:  rgba(79, 79, 79, .7);
+	padding: 10px;
+	border-radius: 20px;
+}
+
+.listap 
+{
+	text-align:justify;
+	opacity: 0.9;
+	padding-left: 40px; 
+	padding-right: 40px;
+	border-radius: 20px;
+	margin-top: 125px;
+	margin-left: 89px;
+	float: left;
+}
+
+.table { width: 100%; margin-bottom: 1rem; opacity: 0.7; } .table th, .table td { padding: 0.75rem; vertical-align: top; border-top: 1px solid #dee2e6; background-color: #2e2d2d; } .table thead th { vertical-align: bottom; border-bottom: 2px solid #dee2e6; } .table tbody + tbody { border-top: 2px solid #dee2e6; } } .table th, .table td, .table thead th, .table tbody + tbody { border-color: #95999c; } .table td, th { color: white; }
+
+
+
+
+
+
+
+
+
+
+
+#SLIDE_BG
+{
+	width: 100%;
+	height: 105vh;
+	position: relative;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	backface-visibility: hidden;
+	animation: slideBg 20s linear infinite;
+	animation-timing-function: ease-in-out;
+	background-image: url("../img/1.jpg");
+
+}
+
+
+
+
+@keyframes titulo-capa 
+{
+	0% {opacity: 0; transform: translate(0px,-20px)}
+	100% {opacity: 1; transform: translate(0px,0px)}
+}
+
+
+@keyframes conteudo
+{
+	0% {opacity: 0; transform: translate(-20px,0px)}
+	100% {opacity: 1; transform: translate(0px,0px)}
+}
+
+@keyframes navegacao 
+{
+	0% {opacity: 0;}
+	50% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+
+@keyframes slideBg
+{
+	0%
+	{
+		background-image: url("../img/1.jpg");
+	}
+
+	50%
+	{
+		background-image: url("../img/2.jpg");
+	}
+
+	90%
+	{
+		background-image: url("../img/3.jpg");
+	}
+
+	100%
+	{
+		background-image: url("../img/1.jpg");
+	}
+}
+
+

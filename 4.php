@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 
 <html>
@@ -20,11 +24,8 @@
 
 			<div id="navigation" class = "navigation"> 
 				<ul>
-					<li><a href = "0.html">Home</a></li>
-					<li><a href = "1.html">Login</a></li>
-					<li><a href = "2.html">Solicitar um Orçamento</a></li>
-					<li><a href = "3.html">Contato</a></li>
-
+					
+					<li><a href = "0.php">Voltar</a></li>
 					
 				</ul>
 			</div>
@@ -32,12 +33,17 @@
 			<div class = "capa">
 
 				<div class = "profile-title">
-					<h1>Em Breve... </h1> <br> <br>
-					<h2>nossas Informações serão divulgadas, estamos em estado de construção no momento.</h2>
-				</div>
-			</div>
+					<h1>Como deseja se Cadastrar ?</h1> <br> <br>
+							<div class = "forms">				
+								<br><br>
+								<a style = "color: white" href = "5.php">Desejo me cadastrar como Prestador de Serviço</a> <br> <br>
+								<a style = "color: white" href = "6.php">Desejo me cadastrar como Cliente</a>
 
-			</div>
+
+								<br>
+			  </div> 
+	    </div> 
+	    </div>	
 		
 
 	</body>
